@@ -17,6 +17,7 @@
     margin: 120px auto 29px auto;
     
     border: 4px solid hsl(0, 0%, 8%);
+    object-fit: cover;
 }
 body{
     
@@ -49,6 +50,11 @@ li{
     cursor:pointer;
     font: bold 14px 'Inter', sans-serif;
     
+}
+li a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
 }
 li:active{
     background-color: hsl(75, 94%, 57%);
